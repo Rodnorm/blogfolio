@@ -1,0 +1,29 @@
+
+$font: Helvetica, sans-serif;
+$menuColor: #8ee8d8;
+$itemHover:	#46d4e1;
+
+
+nav, #navbar{
+    z-index: 2;
+}
+.customNavbar {
+    background: $menuColor;
+    font: $font;
+}
+.customNavbarDropdown{
+    background: $menuColor;
+    width: 10%;
+    margin-left: 2rem;
+    border-radius: 0% 0% 10% 10%;
+    padding: .5rem;
+    position: absolute;
+    left: -2.39%;
+}
+.customNavbarItems{
+    padding: .5rem;
+    border-radius: 0% 50% 0% 30%;
+}
+.customNavbarItems:hover{
+    background: $itemHover;
+}

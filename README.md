@@ -28,4 +28,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Personal notes
 
-To get it kicking these are some helpfull commands I've been using: `ng build --pro --base-href "https://<githubUser>.github.io/<repositoryName>"` and then `npx ngh --dir=dist/<projectName> --no-silent` 
+To get it kicking these are some helpfull commands I've been using: `ng build --pro --base-href "https://<githubUser>.github.io/<repositoryName>"` and then `npx ngh --dir=dist/<projectName> --no-silent`,  my personal ones for example are `ng build --pro --base-href "https://rodnorm.github.io/blogfolio"` and `npx ngh --dir=dist/blogfolio --no-silent` 

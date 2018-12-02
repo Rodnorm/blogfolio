@@ -1,0 +1,37 @@
+$backgroundColor: #c3edd5;
+
+$headerBackground: blue;
+.main {
+    position: absolute;
+    background: $backgroundColor;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    height: 100%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 2px solid black;
+}
+.greetings{
+    border: 2px solid black;
+}
+
+.articlesPreview{
+    border: 2px solid black;
+}
+.articlePreviewDiv{
+    border: 2px solid black;
+}
+
+.header{
+    border: 2px solid black;
+    align-self: flex-end;
+    background: $headerBackground;
+}
+.imgContent{
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
