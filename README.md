@@ -25,3 +25,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Further help
+
+To get it kicking these are some helpfull commands I've been using: ng build --pro --base-href "https://<githubUser>.github.io/<repositoryName>" and then npx ngh --dir=dist/<projectName> --no-silent
