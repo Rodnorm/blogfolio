@@ -1,37 +1,44 @@
 $backgroundColor: #c3edd5;
+$titleFont: 'Text Me One', sans-serif;
+$metaFont: 'Inconsolata', monospace;
 
-$headerBackground: blue;
-.main {
-    position: absolute;
-    background: $backgroundColor;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-    height: 100%;
-    width: 90%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-around;
-    border: 2px solid black;
-}
-.greetings{
-    border: 2px solid black;
-}
-
-.articlesPreview{
-    border: 2px solid black;
-}
-.articlePreviewDiv{
-    border: 2px solid black;
-}
-
-.header{
-    border: 2px solid black;
-    align-self: flex-end;
-    background: $headerBackground;
-}
-.imgContent{
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-}
+.post-preview > a {
+    color: #212529;
+    font-family: $titleFont;
+  }
+  
+.post-preview > a:focus, .post-preview > a:hover {
+    text-decoration: none;
+    color: #8ee8d8;
+  }
+  
+  .post-preview > a > .post-title {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .post-preview > a > .post-subtitle {
+    font-weight: 300;
+    margin: 0 0 10px;
+  }
+  
+  .post-preview > .post-meta {
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 0;
+    color: #868e96;
+    font-family: $metaFont;
+  }
+  
+  .post-preview > .post-meta > a {
+    text-decoration: none;
+    color: #212529;
+  }
+  .post-preview > .post-meta > a:focus, .post-preview > .post-meta > a:hover {
+    text-decoration: underline;
+    color: #0085A1;
+  }
+  .greetings h1 {
+    font-family: $titleFont; 
+  }

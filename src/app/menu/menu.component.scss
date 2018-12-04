@@ -2,7 +2,7 @@
 $font: Helvetica, sans-serif;
 $menuColor: #8ee8d8;
 $itemHover:	#46d4e1;
-
+$logoFont: 'Gamja Flower', cursive;
 
 nav, #navbar{
     z-index: 2;
@@ -26,4 +26,9 @@ nav, #navbar{
 }
 .customNavbarItems:hover{
     background: $itemHover;
+}
+
+nav div a {
+    font-family: $logoFont;
+    font-size: 2rem;
 }
