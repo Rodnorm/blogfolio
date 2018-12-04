@@ -5,9 +5,7 @@ import { Routes } from "@angular/router";
 
 
 export const routes: Routes = [
-    {
-        path: 'blogfolio', component: MainComponent, pathMatch : 'prefix'
-    },
+
     {
         path: '', component: MainComponent, pathMatch : 'prefix'
     },
