@@ -7,7 +7,10 @@ import { Routes } from "@angular/router";
 export const routes: Routes = [
 
     {
-        path: '', component: MainComponent, pathMatch : 'prefix'
+        path: '', component: MainComponent
+    },
+    {
+        path: 'blogfolio', component: ArticleComponent
     },
     {
         path: 'article', component: ArticleComponent

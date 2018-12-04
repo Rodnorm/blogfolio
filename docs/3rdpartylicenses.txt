@@ -313,8 +313,6 @@ MIT
 @angular/router
 MIT
 
-ngx-bootstrap/collapse
-
 @fortawesome/fontawesome-svg-core
 MIT
 Font Awesome Free License
@@ -355,6 +353,8 @@ to represent the company, product, or service to which they refer.**
 
 @fortawesome/angular-fontawesome
 MIT
+
+ngx-bootstrap/collapse
 
 zone.js
 MIT
