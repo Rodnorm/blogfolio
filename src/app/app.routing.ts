@@ -10,11 +10,6 @@ export const routes: Routes = [
         path: '', component: MainComponent
     },
     {
-        path: 'blogfolio', component: ArticleComponent
-    },
-    {
         path: 'article', component: ArticleComponent
     }
 ];
-
-
