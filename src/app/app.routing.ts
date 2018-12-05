@@ -7,7 +7,7 @@ import { Routes } from "@angular/router";
 export const routes: Routes = [
 
     {
-        path: '', component: MainComponent
+        path: '', component: MainComponent, pathMatch: 'full'
     },
     {
         path: 'article', component: ArticleComponent
