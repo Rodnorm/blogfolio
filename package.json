@@ -1,6 +1,7 @@
 {
   "name": "blogfolio",
   "version": "0.0.0",
+  "baseHref": "/docs/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
