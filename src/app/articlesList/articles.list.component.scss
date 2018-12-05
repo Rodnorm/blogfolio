@@ -41,10 +41,16 @@ $metaFont: 'Inconsolata', monospace;
   .greetings h1 {
     font-family: $titleFont; 
     position :relative;
-    animation: enterAny 2s;
+    animation: revealing 2s;
+  }
+  .post-preview{
+    animation: revealing 2s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
   }
 
-  @keyframes enterAny{
-    from {top: -2rem;}
-    to {top: 0rem;}
+  @keyframes revealing{
+    from {opacity: 0;}
+    to {opacity: 1;}
   }

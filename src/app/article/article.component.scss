@@ -1,3 +1,60 @@
 p {
     text-align: justify;
 }
+body {
+    background-color: #e8f4ea;
+}
+#article, header {
+    animation: revealing 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes revealing {
+    from { opacity: 0;}
+    to { opacity: 1;}
+}
+.dot1{
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot2{
+    height: 1rem;
+    width: 1rem;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot3{
+    height: .7rem;
+    width: .7rem;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin-top: .5rem;
+    margin-right: .5rem;
+    display: inline-block;
+}
+
+#dots{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.imgConfig{
+    height: 20rem;
+}
+
+.imgFlex{
+    display: flex;
+    justify-content: space-between;
+    font-size: 80%;
+    margin-bottom: 2rem;
+}
+.imgOrder{
+    display: flex;
+    flex-direction: column;
+}
