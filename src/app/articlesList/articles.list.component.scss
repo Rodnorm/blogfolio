@@ -40,4 +40,11 @@ $metaFont: 'Inconsolata', monospace;
   }
   .greetings h1 {
     font-family: $titleFont; 
+    position :relative;
+    animation: enterAny 2s;
+  }
+
+  @keyframes enterAny{
+    from {top: -2rem;}
+    to {top: 0rem;}
   }
